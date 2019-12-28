@@ -1,5 +1,6 @@
 package com.doumi.biz.structstream
 
+import com.doumi.biz.listener.BizStreamListener
 import org.apache.log4j.{Level, Logger}
 import org.apache.spark.sql.SparkSession
 
@@ -23,6 +24,8 @@ object StructStreamDemo {
       .load()
       .selectExpr("CAST(key AS STRING)", "CAST(value AS STRING)", "timestamp", "topic", "partition", "offset")
       .as[(String, String, Long, String, Int, Long)]
+
+    spark.streams.addListener(new BizStreamListener("getClass.getSimpleName"))
 
     df
       .writeStream
