@@ -7,6 +7,27 @@
     <groupId>org.example</groupId>
     <artifactId>SparkCoreDemos</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <properties>
+        <spark.version>2.4.4</spark.version>
+        <scala.version>2.11</scala.version>
+        <mysql.driver>5.1.38</mysql.driver>
 
+    </properties>
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/org.apache.spark/spark-core -->
+        <dependency>
+            <groupId>org.apache.spark</groupId>
+            <artifactId>spark-core_${scala.version}</artifactId>
+            <version>${spark.version}</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.apache.spark/spark-sql -->
+        <dependency>
+            <groupId>org.apache.spark</groupId>
+            <artifactId>spark-sql_${scala.version}</artifactId>
+            <version>${spark.version}</version>
+        </dependency>
+
+    </dependencies>
 
 </project>
