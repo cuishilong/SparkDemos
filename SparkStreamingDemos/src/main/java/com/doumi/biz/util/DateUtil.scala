@@ -5,7 +5,7 @@ import java.util.{Calendar, Date}
 
 object DateUtil {
   def main(args: Array[String]): Unit = {
-    println(getDiffDateStr("yyyyMMddHHmm", 1))
+    println(getClass.getSimpleName.replaceAll("\\$",""))
   }
 
   def getDiffDateStr(format: String, diff: Int): String = {

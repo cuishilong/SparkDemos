@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="862c01f4-ffb8-446d-9af6-305c1dbf84a6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/SparkStreamingDemos/src/main/java/com/doumi/biz/util/DateUtil.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkStreamingDemos/src/main/java/com/doumi/biz/util/ScalaUtil.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkStreamingDemos/src/main/resources/core-site.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkStreamingDemos/src/main/resources/hdfs-site.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkStreamingDemos/src/main/resources/mapred-site.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkStreamingDemos/src/main/resources/yarn-site.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SparkStreamingDemos/src/main/java/com/doumi/biz/structstream/StructStreamWithTriggerDemo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/SparkStreamingDemos/src/main/java/com/doumi/biz/structstream/StructStreamWithTriggerDemo.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SparkStreamingDemos/src/main/java/com/doumi/biz/util/DateUtil.scala" beforeDir="false" afterPath="$PROJECT_DIR$/SparkStreamingDemos/src/main/java/com/doumi/biz/util/DateUtil.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,9 +28,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="dummy://scala-decompiled/Duration.decompiled.java" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IgnoredFileRootStore">
     <option name="generatedRoots">
@@ -67,7 +59,7 @@
       <recent name="$PROJECT_DIR$/SparkStreamingDemos/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StructStreamWithTriggerDemo">
+  <component name="RunManager" selected="Application.DataProducer">
     <configuration name="DataProducer" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.doumi.biz.kafka.DataProducer" />
       <module name="SparkStreamingDemos" />
@@ -135,10 +127,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DataProducer" />
         <item itemvalue="Application.StructStreamWithTriggerDemo" />
         <item itemvalue="Application.DateUtil" />
         <item itemvalue="Application.StructStreamWithListenerDemo" />
-        <item itemvalue="Application.DataProducer" />
         <item itemvalue="Application.StructStreamWithBeanClassDemo" />
       </list>
     </recent_temporary>
@@ -166,7 +158,8 @@
       <option name="presentableId" value="Default" />
       <updated>1577530748352</updated>
       <workItem from="1577530749709" duration="7483000" />
-      <workItem from="1577581129281" duration="7854000" />
+      <workItem from="1577581129281" duration="8865000" />
+      <workItem from="1577615219926" duration="51000" />
     </task>
     <task id="LOCAL-00001" summary="cuishilong">
       <created>1577531006584</created>
@@ -203,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577589590635</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="cuishilong">
+      <created>1577613963077</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1577613963077</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -222,30 +222,30 @@
       <screen x="0" y="0" width="1536" height="960" />
     </state>
     <state x="485" y="157" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1536.960@0.0.1536.960" timestamp="1577530960742" />
-    <state x="273" y="83" key="CommitChangelistDialog2" timestamp="1577589590490">
+    <state x="273" y="83" key="CommitChangelistDialog2" timestamp="1577613962980">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state x="273" y="83" key="CommitChangelistDialog2/0.0.1536.960@0.0.1536.960" timestamp="1577589590490" />
-    <state width="1494" height="492" key="GridCell.Tab.0.bottom" timestamp="1577613897433">
+    <state x="273" y="83" key="CommitChangelistDialog2/0.0.1536.960@0.0.1536.960" timestamp="1577613962980" />
+    <state width="1494" height="460" key="GridCell.Tab.0.bottom" timestamp="1577615270590">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1494" height="492" key="GridCell.Tab.0.bottom/0.0.1536.960@0.0.1536.960" timestamp="1577613897433" />
-    <state width="1494" height="492" key="GridCell.Tab.0.center" timestamp="1577613897431">
+    <state width="1494" height="460" key="GridCell.Tab.0.bottom/0.0.1536.960@0.0.1536.960" timestamp="1577615270590" />
+    <state width="1494" height="460" key="GridCell.Tab.0.center" timestamp="1577615270589">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1494" height="492" key="GridCell.Tab.0.center/0.0.1536.960@0.0.1536.960" timestamp="1577613897431" />
-    <state width="1494" height="492" key="GridCell.Tab.0.left" timestamp="1577613897430">
+    <state width="1494" height="460" key="GridCell.Tab.0.center/0.0.1536.960@0.0.1536.960" timestamp="1577615270589" />
+    <state width="1494" height="460" key="GridCell.Tab.0.left" timestamp="1577615270589">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1494" height="492" key="GridCell.Tab.0.left/0.0.1536.960@0.0.1536.960" timestamp="1577613897430" />
-    <state width="1494" height="492" key="GridCell.Tab.0.right" timestamp="1577613897432">
+    <state width="1494" height="460" key="GridCell.Tab.0.left/0.0.1536.960@0.0.1536.960" timestamp="1577615270589" />
+    <state width="1494" height="460" key="GridCell.Tab.0.right" timestamp="1577615270590">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1494" height="492" key="GridCell.Tab.0.right/0.0.1536.960@0.0.1536.960" timestamp="1577613897432" />
-    <state x="368" y="221" key="Vcs.Push.Dialog.v2" timestamp="1577589593266">
+    <state width="1494" height="460" key="GridCell.Tab.0.right/0.0.1536.960@0.0.1536.960" timestamp="1577615270590" />
+    <state x="368" y="221" key="Vcs.Push.Dialog.v2" timestamp="1577613966532">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state x="368" y="221" key="Vcs.Push.Dialog.v2/0.0.1536.960@0.0.1536.960" timestamp="1577589593266" />
+    <state x="368" y="221" key="Vcs.Push.Dialog.v2/0.0.1536.960@0.0.1536.960" timestamp="1577613966532" />
     <state x="145" y="181" key="new project wizard" timestamp="1577530820621">
       <screen x="0" y="0" width="1536" height="960" />
     </state>

@@ -2,14 +2,14 @@ package com.doumi.biz.structstream
 
 import com.alibaba.fastjson.JSON
 import com.doumi.biz.listener.BizStreamQueryListener
-import com.doumi.biz.util.{DateUtil, ScalaUtil}
+import com.doumi.biz.util.DateUtil
 import org.apache.log4j.{Level, Logger}
 import org.apache.spark.sql.SparkSession
 import org.apache.spark.sql.streaming.Trigger
 
 object StructStreamWithTriggerDemo {
   Logger.getLogger("org").setLevel(Level.WARN)
-  val streamTag = getClass.getSimpleName
+  val streamTag = getClass.getSimpleName.replaceAll("\\$", "")
   val streamMaster = "local[*]"
 
   case class Bean(id: Int, name: String, timestamp: Long, topic: String, partition: Int, offset: Long)
@@ -46,7 +46,7 @@ object StructStreamWithTriggerDemo {
 
     streamDf
       .writeStream
-      .option("checkpointLocation", s"/user/spark/ckp/${streamTag}/${dateStr}")
+      .option("checkpointLocation", s"hdfs://localhost:9000/user/spark/ckp/${streamTag}/${dateStr}")
       .trigger(Trigger.ProcessingTime(1000))
       .format("console")
       .start()
