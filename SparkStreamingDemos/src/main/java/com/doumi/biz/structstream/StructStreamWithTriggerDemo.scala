@@ -2,6 +2,7 @@ package com.doumi.biz.structstream
 
 import com.alibaba.fastjson.JSON
 import com.doumi.biz.listener.BizStreamQueryListener
+import com.doumi.biz.util.{DateUtil, ScalaUtil}
 import org.apache.log4j.{Level, Logger}
 import org.apache.spark.sql.SparkSession
 import org.apache.spark.sql.streaming.Trigger
@@ -14,6 +15,7 @@ object StructStreamWithTriggerDemo {
   case class Bean(id: Int, name: String, timestamp: Long, topic: String, partition: Int, offset: Long)
 
   def main(args: Array[String]): Unit = {
+    val dateStr = DateUtil.getDiffDateStr("yyyyMMddHHss", 0)
     val spark = SparkSession
       .builder()
       .appName(streamTag)
@@ -44,6 +46,7 @@ object StructStreamWithTriggerDemo {
 
     streamDf
       .writeStream
+      .option("checkpointLocation", s"/user/spark/ckp/${streamTag}/${dateStr}")
       .trigger(Trigger.ProcessingTime(1000))
       .format("console")
       .start()
