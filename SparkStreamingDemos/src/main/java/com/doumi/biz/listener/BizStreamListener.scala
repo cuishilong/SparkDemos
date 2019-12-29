@@ -1,17 +1,10 @@
 package com.doumi.biz.listener
 
-import org.apache.spark.sql.streaming.StreamingQueryListener
-import org.apache.spark.sql.streaming.StreamingQueryListener.{QueryProgressEvent, QueryStartedEvent, QueryTerminatedEvent}
+import org.apache.spark.streaming.scheduler.{StreamingListener, StreamingListenerBatchCompleted}
 
-class BizStreamListener(streamTag: String) extends StreamingQueryListener {
-  override def onQueryStarted(event: QueryStartedEvent): Unit = {
-  }
-
-  override def onQueryProgress(event: QueryProgressEvent): Unit = {
-    val process = event.progress
-    println(s"${streamTag} - numInputRows : ${process.numInputRows}")
-  }
-
-  override def onQueryTerminated(event: QueryTerminatedEvent): Unit = {
+class BizStreamListener(streamTag:String) extends StreamingListener {
+  override def onBatchCompleted(batchCompleted: StreamingListenerBatchCompleted): Unit = {
+    val info = batchCompleted.batchInfo
+    println(s"numRecords : ${info.numRecords}")
   }
 }

@@ -2,10 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="862c01f4-ffb8-446d-9af6-305c1dbf84a6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/SparkStreamingDemos/src/main/java/com/doumi/biz/listener/BizStreamListener.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkStreamingDemos/src/main/java/com/doumi/biz/stream/StreamDemo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_streaming_2_11_2_4_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_streaming_kafka_0_10_2_11_2_4_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SparkStreamingDemos/src/main/java/com/doumi/biz/listener/BizStreamQueryListener.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SparkStreamingDemos/src/main/java/com/doumi/biz/structstream/StructStreamWithBeanClassDemo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SparkStreamingDemos/src/main/java/com/doumi/biz/structstream/StructStreamWithListenerDemo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SparkStreamingDemos/src/main/java/com/doumi/biz/structstream/StructStreamWithTriggerDemo.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SparkStreamingDemos/SparkStreamingDemos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SparkStreamingDemos/SparkStreamingDemos.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SparkStreamingDemos/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SparkStreamingDemos/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SparkStreamingDemos/src/main/java/com/doumi/biz/kafka/DataProducer.scala" beforeDir="false" afterPath="$PROJECT_DIR$/SparkStreamingDemos/src/main/java/com/doumi/biz/kafka/DataProducer.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SparkStreamingDemos/src/main/java/com/doumi/biz/listener/BizStreamListener.scala" beforeDir="false" afterPath="$PROJECT_DIR$/SparkStreamingDemos/src/main/java/com/doumi/biz/listener/BizStreamListener.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SparkStreamingDemos/src/main/java/com/doumi/biz/stream/StreamDemo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/SparkStreamingDemos/src/main/java/com/doumi/biz/stream/StreamDemo.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SparkStreamingDemos/src/main/java/com/doumi/biz/structstream/StructStreamDemo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/SparkStreamingDemos/src/main/java/com/doumi/biz/structstream/StructStreamDemo.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SparkStreamingDemos/target/classes/com/doumi/biz/kafka/DataProducer$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SparkStreamingDemos/target/classes/com/doumi/biz/kafka/DataProducer$.class" beforeDir="false" afterPath="$PROJECT_DIR$/SparkStreamingDemos/target/classes/com/doumi/biz/kafka/DataProducer$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SparkStreamingDemos/target/classes/com/doumi/biz/structstream/StructStreamDemo$$typecreator4$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/SparkStreamingDemos/target/classes/com/doumi/biz/structstream/StructStreamDemo$$typecreator4$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SparkStreamingDemos/target/classes/com/doumi/biz/structstream/StructStreamDemo$.class" beforeDir="false" afterPath="$PROJECT_DIR$/SparkStreamingDemos/target/classes/com/doumi/biz/structstream/StructStreamDemo$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SparkStreamingDemos/target/classes/com/doumi/biz/structstream/StructStreamDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/SparkStreamingDemos/target/classes/com/doumi/biz/structstream/StructStreamDemo.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +34,18 @@
       <executable />
     </execution>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="dummy://scala-decompiled/Duration.decompiled.java" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IgnoredFileRootStore">
     <option name="generatedRoots">
@@ -44,6 +68,11 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.doumi.biz.structstream" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.DataProducer">
     <configuration name="DataProducer" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.doumi.biz.kafka.DataProducer" />
@@ -58,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ScalaUtil" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.doumi.biz.util.ScalaUtil" />
-      <module name="SparkCoreDemos" />
+    <configuration name="StreamDemo" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.doumi.biz.stream.StreamDemo" />
+      <module name="SparkStreamingDemos" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.doumi.biz.util.*" />
+          <option name="PATTERN" value="com.doumi.biz.stream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -71,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SparkReadJson" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.doumi.biz.byscala.SparkReadJson" />
-      <module name="SparkCoreDemos" />
+    <configuration name="StructStreamWithBeanClassDemo" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.doumi.biz.structstream.StructStreamWithBeanClassDemo" />
+      <module name="SparkStreamingDemos" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.doumi.biz.byscala.*" />
+          <option name="PATTERN" value="com.doumi.biz.structstream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,8 +113,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StructStreamDemo" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.doumi.biz.structstream.StructStreamDemo" />
+    <configuration name="StructStreamWithListenerDemo" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.doumi.biz.structstream.StructStreamWithListenerDemo" />
+      <module name="SparkStreamingDemos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.doumi.biz.structstream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StructStreamWithTriggerDemo" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.doumi.biz.structstream.StructStreamWithTriggerDemo" />
       <module name="SparkStreamingDemos" />
       <extension name="coverage">
         <pattern>
@@ -99,10 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StructStreamWithListenerDemo" />
         <item itemvalue="Application.DataProducer" />
-        <item itemvalue="Application.StructStreamDemo" />
-        <item itemvalue="Application.SparkReadJson" />
-        <item itemvalue="Application.ScalaUtil" />
+        <item itemvalue="Application.StructStreamWithTriggerDemo" />
+        <item itemvalue="Application.StructStreamWithBeanClassDemo" />
+        <item itemvalue="Application.StreamDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -128,7 +171,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1577530748352</updated>
-      <workItem from="1577530749709" duration="7272000" />
+      <workItem from="1577530749709" duration="7483000" />
+      <workItem from="1577581129281" duration="4943000" />
     </task>
     <task id="LOCAL-00001" summary="cuishilong">
       <created>1577531006584</created>
@@ -151,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577542587300</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="cuishilong">
+      <created>1577543325578</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1577543325578</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,41 +213,45 @@
     <option name="LAST_COMMIT_MESSAGE" value="cuishilong" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="506" y="243" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1577543110433">
+    <state x="506" y="243" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1577585825059">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state x="506" y="243" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1536.960@0.0.1536.960" timestamp="1577543110433" />
+    <state x="506" y="243" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1536.960@0.0.1536.960" timestamp="1577585825059" />
     <state x="485" y="157" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1577530960742">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
     <state x="485" y="157" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1536.960@0.0.1536.960" timestamp="1577530960742" />
-    <state x="273" y="83" key="CommitChangelistDialog2" timestamp="1577542587136">
+    <state x="273" y="83" key="CommitChangelistDialog2" timestamp="1577543325477">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state x="273" y="83" key="CommitChangelistDialog2/0.0.1536.960@0.0.1536.960" timestamp="1577542587136" />
-    <state width="1494" height="411" key="GridCell.Tab.0.bottom" timestamp="1577543300437">
+    <state x="273" y="83" key="CommitChangelistDialog2/0.0.1536.960@0.0.1536.960" timestamp="1577543325477" />
+    <state width="1494" height="377" key="GridCell.Tab.0.bottom" timestamp="1577589563981">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1494" height="411" key="GridCell.Tab.0.bottom/0.0.1536.960@0.0.1536.960" timestamp="1577543300437" />
-    <state width="1494" height="411" key="GridCell.Tab.0.center" timestamp="1577543300436">
+    <state width="1494" height="377" key="GridCell.Tab.0.bottom/0.0.1536.960@0.0.1536.960" timestamp="1577589563981" />
+    <state width="1494" height="377" key="GridCell.Tab.0.center" timestamp="1577589563980">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1494" height="411" key="GridCell.Tab.0.center/0.0.1536.960@0.0.1536.960" timestamp="1577543300436" />
-    <state width="1494" height="411" key="GridCell.Tab.0.left" timestamp="1577543300435">
+    <state width="1494" height="377" key="GridCell.Tab.0.center/0.0.1536.960@0.0.1536.960" timestamp="1577589563980" />
+    <state width="1494" height="377" key="GridCell.Tab.0.left" timestamp="1577589563979">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1494" height="411" key="GridCell.Tab.0.left/0.0.1536.960@0.0.1536.960" timestamp="1577543300435" />
-    <state width="1494" height="411" key="GridCell.Tab.0.right" timestamp="1577543300436">
+    <state width="1494" height="377" key="GridCell.Tab.0.left/0.0.1536.960@0.0.1536.960" timestamp="1577589563979" />
+    <state width="1494" height="377" key="GridCell.Tab.0.right" timestamp="1577589563981">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1494" height="411" key="GridCell.Tab.0.right/0.0.1536.960@0.0.1536.960" timestamp="1577543300436" />
-    <state x="368" y="221" key="Vcs.Push.Dialog.v2" timestamp="1577542589722">
+    <state width="1494" height="377" key="GridCell.Tab.0.right/0.0.1536.960@0.0.1536.960" timestamp="1577589563981" />
+    <state x="368" y="221" key="Vcs.Push.Dialog.v2" timestamp="1577543330046">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state x="368" y="221" key="Vcs.Push.Dialog.v2/0.0.1536.960@0.0.1536.960" timestamp="1577542589722" />
+    <state x="368" y="221" key="Vcs.Push.Dialog.v2/0.0.1536.960@0.0.1536.960" timestamp="1577543330046" />
     <state x="145" y="181" key="new project wizard" timestamp="1577530820621">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
     <state x="145" y="181" key="new project wizard/0.0.1536.960@0.0.1536.960" timestamp="1577530820621" />
+    <state x="433" y="211" key="search.everywhere.popup" timestamp="1577589011132">
+      <screen x="0" y="0" width="1536" height="960" />
+    </state>
+    <state x="433" y="211" key="search.everywhere.popup/0.0.1536.960@0.0.1536.960" timestamp="1577589011132" />
   </component>
 </project>

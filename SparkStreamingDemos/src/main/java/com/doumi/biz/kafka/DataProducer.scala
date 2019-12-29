@@ -1,6 +1,6 @@
 package com.doumi.biz.kafka
 
-import java.util.Properties
+import java.util.{Properties, Random}
 
 import com.alibaba.fastjson.JSONObject
 import org.apache.kafka.clients.producer.{KafkaProducer, ProducerRecord}
@@ -14,16 +14,19 @@ object DataProducer {
     kafkaprop.setProperty("value.serializer", "org.apache.kafka.common.serialization.StringSerializer")
 
     val producer = new KafkaProducer[String, String](kafkaprop)
+    val random = new Random()
 
-    for (i <- 0 to 1000 * 10000) {
+    var i = 0
+    while (true) {
       val jsonObj = new JSONObject()
       jsonObj.put("id", i)
       jsonObj.put("name", "arica")
-
-      val record = new ProducerRecord[String, String]("test", s"${i}", jsonObj.toString())
+      val record = new ProducerRecord[String, String]("test", 0, System.currentTimeMillis(), s"${i}", jsonObj.toString())
       producer.send(record)
-      //      println(record.toString)
-      Thread.sleep(3)
+      println(record.toString)
+      val interval = random.nextInt(10)
+      Thread.sleep(interval * 10)
+      i += 1
     }
   }
 }
