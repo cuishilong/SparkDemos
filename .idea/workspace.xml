@@ -2,9 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="862c01f4-ffb8-446d-9af6-305c1dbf84a6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/SparkMLDemos/recommend.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SparkMLDemos/src/main/java/com/doumi/biz/ml/demos/MLCorrelationiDemo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SparkMLDemos/src/main/java/com/doumi/biz/ml/demos/MLLogicRegressionDemo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SparkMLDemos/src/main/java/com/doumi/biz/mllib/demos/MLCorrelationDemo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SparkMLDemos/src/main/java/com/doumi/biz/mllib/demos/MLLabelPointDemo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SparkMLDemos/src/main/java/com/doumi/biz/mllib/demos/MLVectorDemo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SparkMLDemos/src/main/resources/log4j.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SparkStreamingDemos/src/main/java/com/doumi/biz/structstream/StructStreamWithTriggerDemo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/SparkStreamingDemos/src/main/java/com/doumi/biz/structstream/StructStreamWithTriggerDemo.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SparkStreamingDemos/src/main/java/com/doumi/biz/util/DateUtil.scala" beforeDir="false" afterPath="$PROJECT_DIR$/SparkStreamingDemos/src/main/java/com/doumi/biz/util/DateUtil.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SparkMLDemos/SparkMLDemos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SparkMLDemos/SparkMLDemos.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SparkMLDemos/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SparkMLDemos/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,17 +56,22 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/SparkStreamingDemos/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/SparkMLDemos/src/main/resources" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.doumi.biz.mllib.demos" />
       <recent name="com.doumi.biz.structstream" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/SparkMLDemos/src/main/resources" />
       <recent name="$PROJECT_DIR$/SparkStreamingDemos/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DataProducer">
+  <component name="RunManager" selected="Application.MLCorrelationDemo">
     <configuration name="DataProducer" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.doumi.biz.kafka.DataProducer" />
       <module name="SparkStreamingDemos" />
@@ -86,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StructStreamWithBeanClassDemo" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.doumi.biz.structstream.StructStreamWithBeanClassDemo" />
-      <module name="SparkStreamingDemos" />
+    <configuration name="MLCorrelationDemo" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.doumi.biz.mllib.demos.MLCorrelationDemo" />
+      <module name="SparkMLDemos" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.doumi.biz.structstream.*" />
+          <option name="PATTERN" value="com.doumi.biz.mllib.demos.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StructStreamWithListenerDemo" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.doumi.biz.structstream.StructStreamWithListenerDemo" />
-      <module name="SparkStreamingDemos" />
+    <configuration name="MLCorrelationiDemo" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.doumi.biz.ml.demos.MLCorrelationiDemo" />
+      <module name="SparkMLDemos" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.doumi.biz.structstream.*" />
+          <option name="PATTERN" value="com.doumi.biz.ml.demos.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MLCorrelationDemo" />
+        <item itemvalue="Application.MLCorrelationiDemo" />
         <item itemvalue="Application.DataProducer" />
         <item itemvalue="Application.StructStreamWithTriggerDemo" />
         <item itemvalue="Application.DateUtil" />
-        <item itemvalue="Application.StructStreamWithListenerDemo" />
-        <item itemvalue="Application.StructStreamWithBeanClassDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -160,6 +172,7 @@
       <workItem from="1577530749709" duration="7483000" />
       <workItem from="1577581129281" duration="8865000" />
       <workItem from="1577615219926" duration="51000" />
+      <workItem from="1577663419116" duration="8483000" />
     </task>
     <task id="LOCAL-00001" summary="cuishilong">
       <created>1577531006584</created>
@@ -203,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577613963077</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="cuishilong">
+      <created>1577663505872</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1577663505872</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,6 +234,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="cuishilong" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="368" y="147" key="#Project_Structure" timestamp="1577710648594">
+      <screen x="0" y="0" width="1536" height="960" />
+    </state>
+    <state x="368" y="147" key="#Project_Structure/0.0.1536.960@0.0.1536.960" timestamp="1577710648594" />
     <state x="506" y="243" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1577585825059">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
@@ -222,37 +246,41 @@
       <screen x="0" y="0" width="1536" height="960" />
     </state>
     <state x="485" y="157" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1536.960@0.0.1536.960" timestamp="1577530960742" />
-    <state x="273" y="83" key="CommitChangelistDialog2" timestamp="1577613962980">
+    <state x="311" y="411" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1577709729069">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state x="273" y="83" key="CommitChangelistDialog2/0.0.1536.960@0.0.1536.960" timestamp="1577613962980" />
-    <state width="1494" height="460" key="GridCell.Tab.0.bottom" timestamp="1577615270590">
+    <state x="311" y="411" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.960@0.0.1536.960" timestamp="1577709729069" />
+    <state x="273" y="83" key="CommitChangelistDialog2" timestamp="1577663505745">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1494" height="460" key="GridCell.Tab.0.bottom/0.0.1536.960@0.0.1536.960" timestamp="1577615270590" />
-    <state width="1494" height="460" key="GridCell.Tab.0.center" timestamp="1577615270589">
+    <state x="273" y="83" key="CommitChangelistDialog2/0.0.1536.960@0.0.1536.960" timestamp="1577663505745" />
+    <state width="1494" height="380" key="GridCell.Tab.0.bottom" timestamp="1577710885239">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1494" height="460" key="GridCell.Tab.0.center/0.0.1536.960@0.0.1536.960" timestamp="1577615270589" />
-    <state width="1494" height="460" key="GridCell.Tab.0.left" timestamp="1577615270589">
+    <state width="1494" height="380" key="GridCell.Tab.0.bottom/0.0.1536.960@0.0.1536.960" timestamp="1577710885239" />
+    <state width="1494" height="380" key="GridCell.Tab.0.center" timestamp="1577710885238">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1494" height="460" key="GridCell.Tab.0.left/0.0.1536.960@0.0.1536.960" timestamp="1577615270589" />
-    <state width="1494" height="460" key="GridCell.Tab.0.right" timestamp="1577615270590">
+    <state width="1494" height="380" key="GridCell.Tab.0.center/0.0.1536.960@0.0.1536.960" timestamp="1577710885238" />
+    <state width="1494" height="380" key="GridCell.Tab.0.left" timestamp="1577710885237">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1494" height="460" key="GridCell.Tab.0.right/0.0.1536.960@0.0.1536.960" timestamp="1577615270590" />
-    <state x="368" y="221" key="Vcs.Push.Dialog.v2" timestamp="1577613966532">
+    <state width="1494" height="380" key="GridCell.Tab.0.left/0.0.1536.960@0.0.1536.960" timestamp="1577710885237" />
+    <state width="1494" height="380" key="GridCell.Tab.0.right" timestamp="1577710885238">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state x="368" y="221" key="Vcs.Push.Dialog.v2/0.0.1536.960@0.0.1536.960" timestamp="1577613966532" />
+    <state width="1494" height="380" key="GridCell.Tab.0.right/0.0.1536.960@0.0.1536.960" timestamp="1577710885238" />
+    <state x="368" y="221" key="Vcs.Push.Dialog.v2" timestamp="1577663510160">
+      <screen x="0" y="0" width="1536" height="960" />
+    </state>
+    <state x="368" y="221" key="Vcs.Push.Dialog.v2/0.0.1536.960@0.0.1536.960" timestamp="1577663510160" />
     <state x="145" y="181" key="new project wizard" timestamp="1577530820621">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
     <state x="145" y="181" key="new project wizard/0.0.1536.960@0.0.1536.960" timestamp="1577530820621" />
-    <state x="433" y="211" key="search.everywhere.popup" timestamp="1577589011132">
+    <state x="433" y="211" key="search.everywhere.popup" timestamp="1577702178752">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state x="433" y="211" key="search.everywhere.popup/0.0.1536.960@0.0.1536.960" timestamp="1577589011132" />
+    <state x="433" y="211" key="search.everywhere.popup/0.0.1536.960@0.0.1536.960" timestamp="1577702178752" />
   </component>
 </project>
