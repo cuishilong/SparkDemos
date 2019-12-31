@@ -2,110 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="862c01f4-ffb8-446d-9af6-305c1dbf84a6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_chuusai_shapeless_2_11_2_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_fommil_netlib_core_1_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_rwl_jtransforms_2_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_opencsv_opencsv_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_f2j_arpack_combined_all_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_graphx_2_11_2_4_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_mllib_2_11_2_4_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_mllib_local_2_11_2_4_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scalanlp_breeze_2_11_0_13_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scalanlp_breeze_macros_2_11_0_13_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_spire_math_spire_2_11_0_13_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_spire_math_spire_macros_2_11_0_13_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_typelevel_machinist_2_11_0_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_typelevel_macro_compat_2_11_1_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkMLDemos/src/main/java/com/doumi/biz/listener/BizListener.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkMLDemos/src/main/java/com/doumi/biz/ml/prediction/PredictionLogisticRegressionDemo.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkMLDemos/src/main/java/com/doumi/biz/mllib/demos/MLLogisticRegression.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkMLDemos/src/main/java/com/doumi/biz/mllib/demos/MLlinearSVM.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkMLDemos/src/main/java/com/doumi/biz/test/Test.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkMLDemos/src/main/java/com/doumi/biz/util/DateUtil.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkMLDemos/src/main/java/com/doumi/biz/util/ScalaUtil.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkMLDemos/target/classes/META-INF/SparkMLDemos.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkMLDemos/target/classes/com/doumi/biz/listener/BizListener$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkMLDemos/target/classes/com/doumi/biz/listener/BizListener.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkMLDemos/target/classes/com/doumi/biz/ml/demos/MLCorrelationiDemo$$anonfun$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkMLDemos/target/classes/com/doumi/biz/ml/demos/MLCorrelationiDemo$$typecreator5$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkMLDemos/target/classes/com/doumi/biz/ml/demos/MLCorrelationiDemo$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkMLDemos/target/classes/com/doumi/biz/ml/demos/MLCorrelationiDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkMLDemos/target/classes/com/doumi/biz/ml/demos/MLLabelPointDemo$$typecreator1$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkMLDemos/target/classes/com/doumi/biz/ml/demos/MLLabelPointDemo$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkMLDemos/target/classes/com/doumi/biz/ml/demos/MLLabelPointDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkMLDemos/target/classes/com/doumi/biz/ml/demos/MLLogicRegressionDemo$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkMLDemos/target/classes/com/doumi/biz/ml/demos/MLLogicRegressionDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkMLDemos/target/classes/com/doumi/biz/ml/prediction/PredictionLogisticRegressionDemo$$anonfun$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkMLDemos/target/classes/com/doumi/biz/ml/prediction/PredictionLogisticRegressionDemo$$typecreator1$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkMLDemos/target/classes/com/doumi/biz/ml/prediction/PredictionLogisticRegressionDemo$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkMLDemos/target/classes/com/doumi/biz/ml/prediction/PredictionLogisticRegressionDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkMLDemos/target/classes/com/doumi/biz/mllib/demos/MLCorrelationDemo$$anonfun$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkMLDemos/target/classes/com/doumi/biz/mllib/demos/MLCorrelationDemo$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkMLDemos/target/classes/com/doumi/biz/mllib/demos/MLCorrelationDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkMLDemos/target/classes/com/doumi/biz/mllib/demos/MLLabelPointDemo$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkMLDemos/target/classes/com/doumi/biz/mllib/demos/MLLabelPointDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkMLDemos/target/classes/com/doumi/biz/mllib/demos/MLLogisticRegression$$anonfun$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkMLDemos/target/classes/com/doumi/biz/mllib/demos/MLLogisticRegression$$typecreator5$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkMLDemos/target/classes/com/doumi/biz/mllib/demos/MLLogisticRegression$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkMLDemos/target/classes/com/doumi/biz/mllib/demos/MLLogisticRegression.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkMLDemos/target/classes/com/doumi/biz/mllib/demos/MLVectorDemo$$anonfun$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkMLDemos/target/classes/com/doumi/biz/mllib/demos/MLVectorDemo$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkMLDemos/target/classes/com/doumi/biz/mllib/demos/MLVectorDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkMLDemos/target/classes/com/doumi/biz/mllib/demos/MLlinearSVM$$anonfun$main$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkMLDemos/target/classes/com/doumi/biz/mllib/demos/MLlinearSVM$$anonfun$main$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkMLDemos/target/classes/com/doumi/biz/mllib/demos/MLlinearSVM$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkMLDemos/target/classes/com/doumi/biz/mllib/demos/MLlinearSVM.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkMLDemos/target/classes/com/doumi/biz/test/Test$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkMLDemos/target/classes/com/doumi/biz/test/Test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkMLDemos/target/classes/com/doumi/biz/util/DateUtil$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkMLDemos/target/classes/com/doumi/biz/util/DateUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkMLDemos/target/classes/com/doumi/biz/util/ScalaUtil$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkMLDemos/target/classes/com/doumi/biz/util/ScalaUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkMLDemos/target/classes/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkStreamingDemos/target/classes/META-INF/SparkStreamingDemos.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkStreamingDemos/target/classes/com/doumi/biz/listener/BizStreamListener.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkStreamingDemos/target/classes/com/doumi/biz/listener/BizStreamQueryListener.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkStreamingDemos/target/classes/com/doumi/biz/stream/StreamDemo$$anonfun$main$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkStreamingDemos/target/classes/com/doumi/biz/stream/StreamDemo$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkStreamingDemos/target/classes/com/doumi/biz/stream/StreamDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkStreamingDemos/target/classes/com/doumi/biz/structstream/StructStreamWithBeanClassDemo$$anonfun$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkStreamingDemos/target/classes/com/doumi/biz/structstream/StructStreamWithBeanClassDemo$$typecreator4$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkStreamingDemos/target/classes/com/doumi/biz/structstream/StructStreamWithBeanClassDemo$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkStreamingDemos/target/classes/com/doumi/biz/structstream/StructStreamWithBeanClassDemo$Bean$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkStreamingDemos/target/classes/com/doumi/biz/structstream/StructStreamWithBeanClassDemo$Bean.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkStreamingDemos/target/classes/com/doumi/biz/structstream/StructStreamWithBeanClassDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkStreamingDemos/target/classes/com/doumi/biz/structstream/StructStreamWithListenerDemo$$anonfun$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkStreamingDemos/target/classes/com/doumi/biz/structstream/StructStreamWithListenerDemo$$typecreator4$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkStreamingDemos/target/classes/com/doumi/biz/structstream/StructStreamWithListenerDemo$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkStreamingDemos/target/classes/com/doumi/biz/structstream/StructStreamWithListenerDemo$Bean$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkStreamingDemos/target/classes/com/doumi/biz/structstream/StructStreamWithListenerDemo$Bean.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkStreamingDemos/target/classes/com/doumi/biz/structstream/StructStreamWithListenerDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkStreamingDemos/target/classes/com/doumi/biz/structstream/StructStreamWithTriggerDemo$$anonfun$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkStreamingDemos/target/classes/com/doumi/biz/structstream/StructStreamWithTriggerDemo$$typecreator4$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkStreamingDemos/target/classes/com/doumi/biz/structstream/StructStreamWithTriggerDemo$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkStreamingDemos/target/classes/com/doumi/biz/structstream/StructStreamWithTriggerDemo$Bean$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkStreamingDemos/target/classes/com/doumi/biz/structstream/StructStreamWithTriggerDemo$Bean.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkStreamingDemos/target/classes/com/doumi/biz/structstream/StructStreamWithTriggerDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkStreamingDemos/target/classes/com/doumi/biz/util/DateUtil$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkStreamingDemos/target/classes/com/doumi/biz/util/DateUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkStreamingDemos/target/classes/com/doumi/biz/util/ScalaUtil$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkStreamingDemos/target/classes/com/doumi/biz/util/ScalaUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkStreamingDemos/target/classes/core-site.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkStreamingDemos/target/classes/hdfs-site.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkStreamingDemos/target/classes/mapred-site.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkStreamingDemos/target/classes/yarn-site.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/sample_libsvm_data.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/logistic_regression_model/data/._SUCCESS.crc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/logistic_regression_model/data/.part-00000-d96f022f-bb08-40cb-bd83-4337fcab8b4e-c000.snappy.parquet.crc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/logistic_regression_model/data/_SUCCESS" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/logistic_regression_model/data/part-00000-d96f022f-bb08-40cb-bd83-4337fcab8b4e-c000.snappy.parquet" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/logistic_regression_model/metadata/._SUCCESS.crc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/logistic_regression_model/metadata/.part-00000.crc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/logistic_regression_model/metadata/_SUCCESS" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/logistic_regression_model/metadata/part-00000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SparkMLDemos/src/main/java/com/doumi/biz/ml/demos/MLLogicRegressionDemo2.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SparkMLDemos/src/main/java/com/doumi/biz/ml/demos/MLlinearRegressionDemo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/sample_linear_regression_data.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SparkMLDemos/src/main/java/com/doumi/biz/ml/demos/MLLogicRegressionDemo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/SparkMLDemos/src/main/java/com/doumi/biz/ml/demos/MLLogicRegressionDemo.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SparkMLDemos/target/classes/com/doumi/biz/ml/demos/MLLabelPointDemo$$typecreator1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SparkMLDemos/target/classes/com/doumi/biz/ml/demos/MLLabelPointDemo$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SparkMLDemos/target/classes/com/doumi/biz/ml/demos/MLLabelPointDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/1.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,6 +61,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.doumi.biz.ml.demos" />
       <recent name="com.doumi.biz.mllib.demos" />
       <recent name="com.doumi.biz.structstream" />
     </key>
@@ -165,7 +70,7 @@
       <recent name="$PROJECT_DIR$/SparkStreamingDemos/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MLLabelPointDemo">
+  <component name="RunManager" selected="Application.MLlinearRegressionDemo2">
     <configuration name="MLLabelPointDemo" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.doumi.biz.ml.demos.MLLabelPointDemo" />
       <module name="SparkMLDemos" />
@@ -179,8 +84,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MLLogicRegressionDemo" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.doumi.biz.ml.demos.MLLogicRegressionDemo" />
+    <configuration name="MLLogicRegressionDemo2" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.doumi.biz.ml.demos.MLLogicRegressionDemo2" />
       <module name="SparkMLDemos" />
       <extension name="coverage">
         <pattern>
@@ -192,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MLLogisticRegression (1)" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.doumi.biz.mllib.demos.MLLogisticRegression" />
+    <configuration name="MLlinearRegressionDemo" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.doumi.biz.ml.demos.MLlinearRegressionDemo" />
       <module name="SparkMLDemos" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.doumi.biz.mllib.demos.*" />
+          <option name="PATTERN" value="com.doumi.biz.ml.demos.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -205,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MLLogisticRegression" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.doumi.biz.mllib.demos.MLlinearSVM" />
+    <configuration name="MLlinearRegressionDemo2" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.doumi.biz.ml.demos.MLlinearRegressionDemo2" />
       <module name="SparkMLDemos" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.doumi.biz.mllib.demos.*" />
+          <option name="PATTERN" value="com.doumi.biz.ml.demos.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -233,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MLlinearRegressionDemo2" />
+        <item itemvalue="Application.MLlinearRegressionDemo" />
+        <item itemvalue="Application.MLLogicRegressionDemo2" />
         <item itemvalue="Application.MLLabelPointDemo" />
         <item itemvalue="Application.PredictionLogisticRegressionDemo" />
-        <item itemvalue="Application.MLLogicRegressionDemo" />
-        <item itemvalue="Application.MLLogisticRegression (1)" />
-        <item itemvalue="Application.MLLogisticRegression" />
       </list>
     </recent_temporary>
   </component>
@@ -267,7 +172,7 @@
       <workItem from="1577581129281" duration="8865000" />
       <workItem from="1577615219926" duration="51000" />
       <workItem from="1577663419116" duration="8867000" />
-      <workItem from="1577751374620" duration="10574000" />
+      <workItem from="1577751374620" duration="13849000" />
     </task>
     <task id="LOCAL-00001" summary="cuishilong">
       <created>1577531006584</created>
@@ -325,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577712087905</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="cuishilong">
+      <created>1577784458770</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1577784458770</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -340,10 +252,10 @@
       <screen x="0" y="0" width="1536" height="960" />
     </state>
     <state x="368" y="147" key="#Project_Structure/0.0.1536.960@0.0.1536.960" timestamp="1577710648594" />
-    <state x="506" y="243" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1577762932907">
+    <state x="506" y="243" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1577788624688">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state x="506" y="243" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1536.960@0.0.1536.960" timestamp="1577762932907" />
+    <state x="506" y="243" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1536.960@0.0.1536.960" timestamp="1577788624688" />
     <state x="485" y="157" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1577530960742">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
@@ -352,34 +264,34 @@
       <screen x="0" y="0" width="1536" height="960" />
     </state>
     <state x="311" y="411" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.960@0.0.1536.960" timestamp="1577709729069" />
-    <state x="273" y="83" key="CommitChangelistDialog2" timestamp="1577712087802">
+    <state x="273" y="83" key="CommitChangelistDialog2" timestamp="1577784458609">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state x="273" y="83" key="CommitChangelistDialog2/0.0.1536.960@0.0.1536.960" timestamp="1577712087802" />
-    <state width="1494" height="348" key="GridCell.Tab.0.bottom" timestamp="1577784109782">
+    <state x="273" y="83" key="CommitChangelistDialog2/0.0.1536.960@0.0.1536.960" timestamp="1577784458609" />
+    <state width="1494" height="400" key="GridCell.Tab.0.bottom" timestamp="1577789736528">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1494" height="348" key="GridCell.Tab.0.bottom/0.0.1536.960@0.0.1536.960" timestamp="1577784109782" />
+    <state width="1494" height="400" key="GridCell.Tab.0.bottom/0.0.1536.960@0.0.1536.960" timestamp="1577789736528" />
     <state width="1494" height="489" key="GridCell.Tab.0.bottom/0.23.1536.857@0.23.1536.857" timestamp="1577770214631" />
-    <state width="1494" height="348" key="GridCell.Tab.0.center" timestamp="1577784109781">
+    <state width="1494" height="400" key="GridCell.Tab.0.center" timestamp="1577789736527">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1494" height="348" key="GridCell.Tab.0.center/0.0.1536.960@0.0.1536.960" timestamp="1577784109781" />
+    <state width="1494" height="400" key="GridCell.Tab.0.center/0.0.1536.960@0.0.1536.960" timestamp="1577789736527" />
     <state width="1494" height="489" key="GridCell.Tab.0.center/0.23.1536.857@0.23.1536.857" timestamp="1577770214630" />
-    <state width="1494" height="348" key="GridCell.Tab.0.left" timestamp="1577784109781">
+    <state width="1494" height="400" key="GridCell.Tab.0.left" timestamp="1577789736526">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1494" height="348" key="GridCell.Tab.0.left/0.0.1536.960@0.0.1536.960" timestamp="1577784109781" />
+    <state width="1494" height="400" key="GridCell.Tab.0.left/0.0.1536.960@0.0.1536.960" timestamp="1577789736526" />
     <state width="1494" height="489" key="GridCell.Tab.0.left/0.23.1536.857@0.23.1536.857" timestamp="1577770214630" />
-    <state width="1494" height="348" key="GridCell.Tab.0.right" timestamp="1577784109782">
+    <state width="1494" height="400" key="GridCell.Tab.0.right" timestamp="1577789736527">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1494" height="348" key="GridCell.Tab.0.right/0.0.1536.960@0.0.1536.960" timestamp="1577784109782" />
+    <state width="1494" height="400" key="GridCell.Tab.0.right/0.0.1536.960@0.0.1536.960" timestamp="1577789736527" />
     <state width="1494" height="489" key="GridCell.Tab.0.right/0.23.1536.857@0.23.1536.857" timestamp="1577770214631" />
-    <state x="368" y="221" key="Vcs.Push.Dialog.v2" timestamp="1577712094400">
+    <state x="368" y="221" key="Vcs.Push.Dialog.v2" timestamp="1577784461823">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state x="368" y="221" key="Vcs.Push.Dialog.v2/0.0.1536.960@0.0.1536.960" timestamp="1577712094400" />
+    <state x="368" y="221" key="Vcs.Push.Dialog.v2/0.0.1536.960@0.0.1536.960" timestamp="1577784461823" />
     <state x="423" y="133" width="689" height="693" key="find.popup" timestamp="1577755009694">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
