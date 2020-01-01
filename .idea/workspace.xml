@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="862c01f4-ffb8-446d-9af6-305c1dbf84a6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/SparkMLDemos/src/main/java/com/doumi/biz/ml/demos/MLLogicRegressionDemo2.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkMLDemos/src/main/java/com/doumi/biz/ml/demos/MLlinearRegressionDemo.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/sample_linear_regression_data.txt" afterDir="false" />
+    <list default="true" id="862c01f4-ffb8-446d-9af6-305c1dbf84a6" name="Default Changelist" comment="cuishilong">
+      <change afterPath="$PROJECT_DIR$/SparkMLDemos/src/main/java/com/doumi/biz/ml/features/LogisticRegressionFeatures.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SparkMLDemos/src/main/java/com/doumi/biz/ml/model/MLBinomialLogisticRegressionModel.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SparkMLDemos/src/main/java/com/doumi/biz/ml/model/MLMultinomialLogisticRegressionModel.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SparkMLDemos/target/classes/com/doumi/biz/ml/demos/MLLabelPointDemo$$typecreator1$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SparkMLDemos/target/classes/com/doumi/biz/ml/demos/MLLabelPointDemo$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SparkMLDemos/target/classes/com/doumi/biz/ml/demos/MLLabelPointDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/1.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,13 +66,13 @@
       <recent name="$PROJECT_DIR$/SparkStreamingDemos/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MLlinearRegressionDemo2">
-    <configuration name="MLLabelPointDemo" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.doumi.biz.ml.demos.MLLabelPointDemo" />
+  <component name="RunManager" selected="Application.MLMultinomialLogisticRegressionModel">
+    <configuration name="LogisticRegressionFeatures" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.doumi.biz.ml.features.LogisticRegressionFeatures" />
       <module name="SparkMLDemos" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.doumi.biz.ml.demos.*" />
+          <option name="PATTERN" value="com.doumi.biz.ml.features.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,6 +86,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.doumi.biz.ml.demos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MLMultinomialLogisticRegressionModel" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.doumi.biz.ml.model.MLMultinomialLogisticRegressionModel" />
+      <module name="SparkMLDemos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.doumi.biz.ml.model.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,26 +132,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PredictionLogisticRegressionDemo" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.doumi.biz.ml.prediction.PredictionLogisticRegressionDemo" />
-      <module name="SparkMLDemos" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.doumi.biz.ml.prediction.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MLMultinomialLogisticRegressionModel" />
+        <item itemvalue="Application.LogisticRegressionFeatures" />
         <item itemvalue="Application.MLlinearRegressionDemo2" />
         <item itemvalue="Application.MLlinearRegressionDemo" />
         <item itemvalue="Application.MLLogicRegressionDemo2" />
-        <item itemvalue="Application.MLLabelPointDemo" />
-        <item itemvalue="Application.PredictionLogisticRegressionDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -172,7 +168,8 @@
       <workItem from="1577581129281" duration="8865000" />
       <workItem from="1577615219926" duration="51000" />
       <workItem from="1577663419116" duration="8867000" />
-      <workItem from="1577751374620" duration="13849000" />
+      <workItem from="1577751374620" duration="14092000" />
+      <workItem from="1577839954551" duration="5418000" />
     </task>
     <task id="LOCAL-00001" summary="cuishilong">
       <created>1577531006584</created>
@@ -237,7 +234,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577784458770</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="cuishilong">
+      <created>1577789822481</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1577789822481</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -264,34 +268,34 @@
       <screen x="0" y="0" width="1536" height="960" />
     </state>
     <state x="311" y="411" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.960@0.0.1536.960" timestamp="1577709729069" />
-    <state x="273" y="83" key="CommitChangelistDialog2" timestamp="1577784458609">
+    <state x="273" y="83" key="CommitChangelistDialog2" timestamp="1577857240236">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state x="273" y="83" key="CommitChangelistDialog2/0.0.1536.960@0.0.1536.960" timestamp="1577784458609" />
-    <state width="1494" height="400" key="GridCell.Tab.0.bottom" timestamp="1577789736528">
+    <state x="273" y="83" key="CommitChangelistDialog2/0.0.1536.960@0.0.1536.960" timestamp="1577857240236" />
+    <state width="1494" height="259" key="GridCell.Tab.0.bottom" timestamp="1577871943260">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1494" height="400" key="GridCell.Tab.0.bottom/0.0.1536.960@0.0.1536.960" timestamp="1577789736528" />
-    <state width="1494" height="489" key="GridCell.Tab.0.bottom/0.23.1536.857@0.23.1536.857" timestamp="1577770214631" />
-    <state width="1494" height="400" key="GridCell.Tab.0.center" timestamp="1577789736527">
+    <state width="1494" height="259" key="GridCell.Tab.0.bottom/0.0.1536.960@0.0.1536.960" timestamp="1577871943260" />
+    <state width="1494" height="400" key="GridCell.Tab.0.bottom/0.23.1536.857@0.23.1536.857" timestamp="1577798133217" />
+    <state width="1494" height="259" key="GridCell.Tab.0.center" timestamp="1577871943260">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1494" height="400" key="GridCell.Tab.0.center/0.0.1536.960@0.0.1536.960" timestamp="1577789736527" />
-    <state width="1494" height="489" key="GridCell.Tab.0.center/0.23.1536.857@0.23.1536.857" timestamp="1577770214630" />
-    <state width="1494" height="400" key="GridCell.Tab.0.left" timestamp="1577789736526">
+    <state width="1494" height="259" key="GridCell.Tab.0.center/0.0.1536.960@0.0.1536.960" timestamp="1577871943260" />
+    <state width="1494" height="400" key="GridCell.Tab.0.center/0.23.1536.857@0.23.1536.857" timestamp="1577798133215" />
+    <state width="1494" height="259" key="GridCell.Tab.0.left" timestamp="1577871943259">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1494" height="400" key="GridCell.Tab.0.left/0.0.1536.960@0.0.1536.960" timestamp="1577789736526" />
-    <state width="1494" height="489" key="GridCell.Tab.0.left/0.23.1536.857@0.23.1536.857" timestamp="1577770214630" />
-    <state width="1494" height="400" key="GridCell.Tab.0.right" timestamp="1577789736527">
+    <state width="1494" height="259" key="GridCell.Tab.0.left/0.0.1536.960@0.0.1536.960" timestamp="1577871943259" />
+    <state width="1494" height="400" key="GridCell.Tab.0.left/0.23.1536.857@0.23.1536.857" timestamp="1577798133215" />
+    <state width="1494" height="259" key="GridCell.Tab.0.right" timestamp="1577871943260">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1494" height="400" key="GridCell.Tab.0.right/0.0.1536.960@0.0.1536.960" timestamp="1577789736527" />
-    <state width="1494" height="489" key="GridCell.Tab.0.right/0.23.1536.857@0.23.1536.857" timestamp="1577770214631" />
-    <state x="368" y="221" key="Vcs.Push.Dialog.v2" timestamp="1577784461823">
+    <state width="1494" height="259" key="GridCell.Tab.0.right/0.0.1536.960@0.0.1536.960" timestamp="1577871943260" />
+    <state width="1494" height="400" key="GridCell.Tab.0.right/0.23.1536.857@0.23.1536.857" timestamp="1577798133216" />
+    <state x="368" y="221" key="Vcs.Push.Dialog.v2" timestamp="1577789829722">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state x="368" y="221" key="Vcs.Push.Dialog.v2/0.0.1536.960@0.0.1536.960" timestamp="1577784461823" />
+    <state x="368" y="221" key="Vcs.Push.Dialog.v2/0.0.1536.960@0.0.1536.960" timestamp="1577789829722" />
     <state x="423" y="133" width="689" height="693" key="find.popup" timestamp="1577755009694">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
@@ -300,9 +304,9 @@
       <screen x="0" y="0" width="1536" height="960" />
     </state>
     <state x="145" y="181" key="new project wizard/0.0.1536.960@0.0.1536.960" timestamp="1577530820621" />
-    <state x="433" y="211" key="search.everywhere.popup" timestamp="1577772980292">
+    <state x="433" y="211" width="670" height="676" key="search.everywhere.popup" timestamp="1577868895997">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state x="433" y="211" key="search.everywhere.popup/0.0.1536.960@0.0.1536.960" timestamp="1577772980292" />
+    <state x="433" y="211" width="670" height="676" key="search.everywhere.popup/0.0.1536.960@0.0.1536.960" timestamp="1577868895997" />
   </component>
 </project>
