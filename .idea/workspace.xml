@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="862c01f4-ffb8-446d-9af6-305c1dbf84a6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/SparkMLDemos/src/main/java/com/doumi/biz/ml/demos/MLMultinomialLogisticRegressionModel.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/sample_multiclass_classification_data.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SparkMLDemos/src/main/java/com/doumi/biz/ml/demos/MLLogicRegressionDemo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/SparkMLDemos/src/main/java/com/doumi/biz/ml/demos/MLLogicRegressionDemo.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SparkMLDemos/src/main/java/com/doumi/biz/ml/model/MLMultinomialLogisticRegressionModel.scala" beforeDir="false" afterPath="$PROJECT_DIR$/SparkMLDemos/src/main/java/com/doumi/biz/ml/model/MLMultinomialLogisticRegressionModel.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SparkMLDemos/target/classes/com/doumi/biz/ml/model/MLMultinomialLogisticRegressionModel$.class" beforeDir="false" afterPath="$PROJECT_DIR$/SparkMLDemos/target/classes/com/doumi/biz/ml/model/MLMultinomialLogisticRegressionModel$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SparkMLDemos/target/classes/com/doumi/biz/ml/demos/MLLogicRegressionDemo$.class" beforeDir="false" afterPath="$PROJECT_DIR$/SparkMLDemos/target/classes/com/doumi/biz/ml/demos/MLLogicRegressionDemo$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SparkMLDemos/target/classes/com/doumi/biz/ml/model/MLMultinomialLogisticRegressionModel$$anonfun$getPredictData$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/SparkMLDemos/target/classes/com/doumi/biz/ml/model/MLMultinomialLogisticRegressionModel$$anonfun$getPredictData$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SparkMLDemos/target/classes/com/doumi/biz/ml/model/MLMultinomialLogisticRegressionModel$$typecreator1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/SparkMLDemos/target/classes/com/doumi/biz/ml/model/MLMultinomialLogisticRegressionModel$$typecreator1$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SparkMLDemos/target/classes/com/doumi/biz/ml/model/MLMultinomialLogisticRegressionModel$$typecreator2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/SparkMLDemos/target/classes/com/doumi/biz/ml/model/MLMultinomialLogisticRegressionModel$$typecreator2$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SparkStreamingDemos/src/main/java/com/doumi/biz/stream/StreamDemo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/SparkStreamingDemos/src/main/java/com/doumi/biz/stream/StreamDemo.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,7 +173,7 @@
       <workItem from="1577751374620" duration="14092000" />
       <workItem from="1577839954551" duration="5418000" />
       <workItem from="1577871947459" duration="35000" />
-      <workItem from="1577923481576" duration="4768000" />
+      <workItem from="1577923481576" duration="6776000" />
     </task>
     <task id="LOCAL-00001" summary="cuishilong">
       <created>1577531006584</created>
@@ -252,7 +252,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577871969265</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="cuishilong">
+      <created>1577954884133</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1577954884133</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -279,10 +286,10 @@
       <screen x="0" y="0" width="1536" height="960" />
     </state>
     <state x="311" y="411" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.960@0.0.1536.960" timestamp="1577709729069" />
-    <state x="273" y="83" key="CommitChangelistDialog2" timestamp="1577871969150">
+    <state x="273" y="83" key="CommitChangelistDialog2" timestamp="1577954883970">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state x="273" y="83" key="CommitChangelistDialog2/0.0.1536.960@0.0.1536.960" timestamp="1577871969150" />
+    <state x="273" y="83" key="CommitChangelistDialog2/0.0.1536.960@0.0.1536.960" timestamp="1577954883970" />
     <state width="1494" height="361" key="GridCell.Tab.0.bottom" timestamp="1577951188604">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
@@ -303,10 +310,10 @@
     </state>
     <state width="1494" height="361" key="GridCell.Tab.0.right/0.0.1536.960@0.0.1536.960" timestamp="1577951188603" />
     <state width="1494" height="400" key="GridCell.Tab.0.right/0.23.1536.857@0.23.1536.857" timestamp="1577798133216" />
-    <state x="368" y="221" key="Vcs.Push.Dialog.v2" timestamp="1577871971275">
+    <state x="368" y="221" key="Vcs.Push.Dialog.v2" timestamp="1577954891066">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state x="368" y="221" key="Vcs.Push.Dialog.v2/0.0.1536.960@0.0.1536.960" timestamp="1577871971275" />
+    <state x="368" y="221" key="Vcs.Push.Dialog.v2/0.0.1536.960@0.0.1536.960" timestamp="1577954891066" />
     <state x="423" y="133" width="689" height="693" key="find.popup" timestamp="1577755009694">
       <screen x="0" y="0" width="1536" height="960" />
     </state>

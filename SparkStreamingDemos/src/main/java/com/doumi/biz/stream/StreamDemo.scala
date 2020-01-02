@@ -41,9 +41,8 @@ object StreamDemo {
         , Subscribe[String, String](topics, kafkaParams)
       )
 
-
     stream
-      .map(record => (record.key(), record.value(), record.timestamp(), record.partition()))
+      .map(record => (record.key(), record.value(), record.timestamp(), record.partition(),record.offset()))
       .print()
 
     ssc.start()
