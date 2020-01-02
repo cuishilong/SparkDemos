@@ -34,8 +34,12 @@ object MLLogicRegressionDemo {
     println(model.intercept)
 
     model.transform(testData.select("features")).show()
+    model.summary.precisionByLabel.foreach(println(_))
 
-    model.save(s"file://${ScalaUtil.getCurrentDir}/model/logistic_regression_model")
+    println(model.summary.accuracy)
+    println(s"Coefficients: \n${model.coefficientMatrix}")
+
+//    model.save(s"file://${ScalaUtil.getCurrentDir}/model/logistic_regression_model")
 
     spark.stop()
   }

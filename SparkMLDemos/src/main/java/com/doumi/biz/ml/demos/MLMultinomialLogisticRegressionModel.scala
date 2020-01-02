@@ -1,5 +1,6 @@
-package com.doumi.biz.ml.model
+package com.doumi.biz.ml.demos
 
+import com.doumi.biz.util.ScalaUtil
 import org.apache.spark.ml.classification.{LogisticRegression, LogisticRegressionModel}
 import org.apache.spark.ml.linalg.Vectors
 import org.apache.spark.sql.{DataFrame, SparkSession}
@@ -17,14 +18,18 @@ object MLMultinomialLogisticRegressionModel {
 
     val data = featuresProject(spark)
 
-    val model = generateModel(data)
+    val Array(trainData, predictData) = data.randomSplit(Array(0.6, 0.4))
 
-    val predictData = getPredictData(spark)
+    val model = generateModel(trainData)
 
-    model.transform(predictData).show()
+    model
+      .transform(predictData)
+      .orderBy("probability")
+      .show(1000)
 
-    println(model.summary.accuracy)
-
+    val summarize = model.summary
+    println(summarize.accuracy)
+    println(s"Coefficients: \n${model.coefficientMatrix}")
     spark.stop()
   }
 
@@ -40,30 +45,15 @@ object MLMultinomialLogisticRegressionModel {
       .setMaxIter(10)
       .setRegParam(0.3)
       .setElasticNetParam(0.8)
-//      .setFamily("multinomial")
+
+    //      .setFamily("multinomial")
     lr.fit(data)
   }
 
   def featuresProject(spark: SparkSession): DataFrame = {
-    val v1 = Vectors.dense(1.0, 2.0)
-    val v2 = Vectors.dense(10.0, 20.0)
-    val v3 = Vectors.dense(1.0, -2.0)
-    val v4 = Vectors.dense(10.0, -20.0)
-    val v5 = Vectors.dense(-1.0, 2.0)
-    val v6 = Vectors.dense(-10.0, 20.0)
-    val v7 = Vectors.dense(-1.0, -2.0)
-    val v8 = Vectors.dense(-10.0, -20.0)
-
-    val dataInit = Array(
-      (0, v1)
-      , (0, v2)
-      , (1, v3)
-      , (1, v4)
-      , (1, v5)
-      , (1, v6)
-      , (0, v7)
-      , (0, v8)
-    )
-    spark.createDataFrame(dataInit).toDF("label", "features")
+    spark
+      .read
+      .format("libsvm")
+      .load(s"${ScalaUtil.getCurrentDir}/data/sample_multiclass_classification_data.txt")
   }
 }
