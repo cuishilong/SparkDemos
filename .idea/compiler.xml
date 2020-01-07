@@ -7,7 +7,6 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="SparkMLDemos" />
-        <module name="MyHadoop" />
         <module name="SparkCoreDemos" />
         <module name="FlinkDemos" />
         <module name="SparkStreamingDemos" />

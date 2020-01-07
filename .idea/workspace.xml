@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="862c01f4-ffb8-446d-9af6-305c1dbf84a6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="862c01f4-ffb8-446d-9af6-305c1dbf84a6" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -173,7 +171,7 @@
       <workItem from="1578189332297" duration="2866000" />
       <workItem from="1578273850949" duration="163000" />
       <workItem from="1578280218031" duration="8076000" />
-      <workItem from="1578355163447" duration="1298000" />
+      <workItem from="1578355163447" duration="1549000" />
     </task>
     <task id="LOCAL-00001" summary="cuishilong">
       <created>1577531006584</created>
@@ -273,7 +271,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578371860733</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="cuishilong">
+      <created>1578372610896</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1578372610896</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -300,10 +305,10 @@
       <screen x="0" y="0" width="1536" height="960" />
     </state>
     <state x="311" y="411" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.960@0.0.1536.960" timestamp="1577709729069" />
-    <state x="273" y="83" key="CommitChangelistDialog2" timestamp="1578371860436">
+    <state x="273" y="83" key="CommitChangelistDialog2" timestamp="1578372610784">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state x="273" y="83" key="CommitChangelistDialog2/0.0.1536.960@0.0.1536.960" timestamp="1578371860436" />
+    <state x="273" y="83" key="CommitChangelistDialog2/0.0.1536.960@0.0.1536.960" timestamp="1578372610784" />
     <state width="1494" height="562" key="GridCell.Tab.0.bottom" timestamp="1578315664905">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
@@ -332,10 +337,10 @@
       <screen x="0" y="0" width="1536" height="960" />
     </state>
     <state x="380" y="184" key="NewModule_or_Project.wizard/0.0.1536.960@0.0.1536.960" timestamp="1578372338923" />
-    <state x="368" y="221" key="Vcs.Push.Dialog.v2" timestamp="1578371863332">
+    <state x="368" y="221" key="Vcs.Push.Dialog.v2" timestamp="1578372613364">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state x="368" y="221" key="Vcs.Push.Dialog.v2/0.0.1536.960@0.0.1536.960" timestamp="1578371863332" />
+    <state x="368" y="221" key="Vcs.Push.Dialog.v2/0.0.1536.960@0.0.1536.960" timestamp="1578372613364" />
     <state x="423" y="133" width="689" height="693" key="find.popup" timestamp="1577755009694">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
