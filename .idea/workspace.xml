@@ -2,65 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="862c01f4-ffb8-446d-9af6-305c1dbf84a6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_esotericsoftware_kryo_kryo_2_24_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_esotericsoftware_minlog_minlog_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_luben_zstd_jni_1_4_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_scopt_scopt_2_11_3_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_twitter_chill_2_11_0_7_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_twitter_chill_java_0_7_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_typesafe_akka_akka_actor_2_11_2_5_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_typesafe_akka_akka_protobuf_2_11_2_5_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_typesafe_akka_akka_slf4j_2_11_2_5_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_typesafe_akka_akka_stream_2_11_2_5_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_typesafe_config_1_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_typesafe_ssl_config_core_2_11_0_3_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_cli_commons_cli_1_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_compress_1_18.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math3_3_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_annotations_1_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_clients_2_11_1_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_connector_kafka_0_10_2_11_1_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_connector_kafka_0_9_2_11_1_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_connector_kafka_base_2_11_1_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_core_1_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_hadoop_fs_1_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_java_1_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_metrics_core_1_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_optimizer_2_11_1_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_queryable_state_client_java_1_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_runtime_2_11_1_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_scala_2_11_1_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_shaded_asm_6_6_2_1_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_shaded_guava_18_0_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_shaded_jackson_2_9_8_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_shaded_netty_4_1_32_Final_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_streaming_java_2_11_1_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_streaming_scala_2_11_1_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_force_shading_1_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_clapper_grizzled_slf4j_2_11_1_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_19_0_GA.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_lz4_lz4_java_1_6_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_modules_scala_java8_compat_2_11_0_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_modules_scala_parser_combinators_2_11_1_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_modules_scala_xml_2_11_1_0_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_scala_compiler_2_11_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_scala_reflect_2_11_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_15.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FlinkDemos/FlinkDemos.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FlinkDemos/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FlinkDemos/src/main/java/com/doumi/biz/stream/FlinkConnectorKafkaDemo.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkCoreDemos/src/main/java/com/doumi/biz/byscala/SparkMapPartitionDemo.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkMLDemos/src/main/java/com/doumi/biz/ml/demos/MLTfIdfDemo.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkMLDemos/src/main/java/com/doumi/biz/ml/model/MLLinearRegressionModel.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SparkStreamingDemos/target/classes/com/doumi/biz/stream/StreamDemo$$anonfun$main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/SparkStreamingDemos/target/classes/com/doumi/biz/stream/StreamDemo$$anonfun$main$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SparkStreamingDemos/target/classes/com/doumi/biz/stream/StreamDemo$.class" beforeDir="false" afterPath="$PROJECT_DIR$/SparkStreamingDemos/target/classes/com/doumi/biz/stream/StreamDemo$.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -231,7 +173,7 @@
       <workItem from="1578189332297" duration="2866000" />
       <workItem from="1578273850949" duration="163000" />
       <workItem from="1578280218031" duration="8076000" />
-      <workItem from="1578355163447" duration="880000" />
+      <workItem from="1578355163447" duration="1298000" />
     </task>
     <task id="LOCAL-00001" summary="cuishilong">
       <created>1577531006584</created>
@@ -324,7 +266,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577972375987</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="cuishilong">
+      <created>1578371860733</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1578371860733</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -351,10 +300,10 @@
       <screen x="0" y="0" width="1536" height="960" />
     </state>
     <state x="311" y="411" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.960@0.0.1536.960" timestamp="1577709729069" />
-    <state x="273" y="83" key="CommitChangelistDialog2" timestamp="1577972375863">
+    <state x="273" y="83" key="CommitChangelistDialog2" timestamp="1578371860436">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state x="273" y="83" key="CommitChangelistDialog2/0.0.1536.960@0.0.1536.960" timestamp="1577972375863" />
+    <state x="273" y="83" key="CommitChangelistDialog2/0.0.1536.960@0.0.1536.960" timestamp="1578371860436" />
     <state width="1494" height="562" key="GridCell.Tab.0.bottom" timestamp="1578315664905">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
@@ -379,18 +328,22 @@
     <state width="1494" height="562" key="GridCell.Tab.0.right/0.0.1536.960@0.0.1536.960" timestamp="1578315664904" />
     <state width="1494" height="356" key="GridCell.Tab.0.right/0.23.1536.853@0.23.1536.853" timestamp="1578212323150" />
     <state width="1494" height="400" key="GridCell.Tab.0.right/0.23.1536.857@0.23.1536.857" timestamp="1577798133216" />
-    <state x="368" y="221" key="Vcs.Push.Dialog.v2" timestamp="1577972380194">
+    <state x="380" y="184" key="NewModule_or_Project.wizard" timestamp="1578372338923">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state x="368" y="221" key="Vcs.Push.Dialog.v2/0.0.1536.960@0.0.1536.960" timestamp="1577972380194" />
+    <state x="380" y="184" key="NewModule_or_Project.wizard/0.0.1536.960@0.0.1536.960" timestamp="1578372338923" />
+    <state x="368" y="221" key="Vcs.Push.Dialog.v2" timestamp="1578371863332">
+      <screen x="0" y="0" width="1536" height="960" />
+    </state>
+    <state x="368" y="221" key="Vcs.Push.Dialog.v2/0.0.1536.960@0.0.1536.960" timestamp="1578371863332" />
     <state x="423" y="133" width="689" height="693" key="find.popup" timestamp="1577755009694">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
     <state x="423" y="133" width="689" height="693" key="find.popup/0.0.1536.960@0.0.1536.960" timestamp="1577755009694" />
-    <state x="145" y="181" key="new project wizard" timestamp="1578303114318">
+    <state x="145" y="181" key="new project wizard" timestamp="1578372580123">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state x="145" y="181" key="new project wizard/0.0.1536.960@0.0.1536.960" timestamp="1578303114318" />
+    <state x="145" y="181" key="new project wizard/0.0.1536.960@0.0.1536.960" timestamp="1578372580123" />
     <state x="433" y="211" width="670" height="676" key="search.everywhere.popup" timestamp="1578046524328">
       <screen x="0" y="0" width="1536" height="960" />
     </state>

@@ -8,6 +8,7 @@
         <option value="$PROJECT_DIR$/SparkMLDemos/pom.xml" />
         <option value="$PROJECT_DIR$/SparkSQLDemos/pom.xml" />
         <option value="$PROJECT_DIR$/FlinkDemos/pom.xml" />
+        <option value="$PROJECT_DIR$/MyHadoop/pom.xml" />
       </list>
     </option>
   </component>
