@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="FlinkDemos" />
         <module name="SparkStreamingDemos" />
         <module name="SparkSQLDemos" />
         <module name="SparkMLDemos" />
@@ -13,6 +14,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="FlinkDemos" target="1.5" />
       <module name="SparkCoreDemos" target="1.5" />
       <module name="SparkMLDemos" target="1.5" />
       <module name="SparkSQLDemos" target="1.5" />

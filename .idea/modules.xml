@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/FlinkDemos/FlinkDemos.iml" filepath="$PROJECT_DIR$/FlinkDemos/FlinkDemos.iml" />
       <module fileurl="file://$PROJECT_DIR$/SparkCoreDemos/SparkCoreDemos.iml" filepath="$PROJECT_DIR$/SparkCoreDemos/SparkCoreDemos.iml" />
       <module fileurl="file://$PROJECT_DIR$/SparkDemos.iml" filepath="$PROJECT_DIR$/SparkDemos.iml" />
       <module fileurl="file://$PROJECT_DIR$/SparkMLDemos/SparkMLDemos.iml" filepath="$PROJECT_DIR$/SparkMLDemos/SparkMLDemos.iml" />
